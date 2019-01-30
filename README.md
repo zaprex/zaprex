@@ -8,14 +8,14 @@ Zaprex is an open source crypto-currency focused on fast private transactions wi
 - Fast transactions featuring guaranteed zero confirmation transactions, we call it _SwiftX_.
 - Decentralized blockchain voting utilizing Masternode technology to form a DAO. The blockchain will distribute monthly treasury funds based on successful proposals submitted by the community and voted on by the DAO.
 
-More information at [zaprex.org](http://www.zaprex.org) Visit our ANN thread at [BitcoinTalk](http://www.bitcointalk.org/index.php?topic=1262920)
+More information at [zaprex.org](http://www.zaprex.org) Visit our ANN thread at [BitcoinTalk](https://bitcointalk.org/index.php?topic=5104044)
 
 ### Coin Specs
 <table>
 <tr><td>Algo</td><td>Quark</td></tr>
 <tr><td>Block Time</td><td>60 Seconds</td></tr>
 <tr><td>Difficulty Retargeting</td><td>Every Block</td></tr>
-<tr><td>Max Coin Supply (PoW Phase)</td><td>43,199,500 ZPX</td></tr>
+<tr><td>Max Coin Supply (PoW Phase)</td><td>85000000 ZPX</td></tr>
 <tr><td>Max Coin Supply (PoS Phase)</td><td>Infinite</td></tr>
 <tr><td>Premine</td><td>60,000 ZPX*</td></tr>
 </table>
