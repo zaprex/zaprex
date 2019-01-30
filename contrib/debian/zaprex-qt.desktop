@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Zaprex
+Comment=Zaprex P2P Cryptocurrency
+Comment[fr]=Zaprex, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Zaprex, eşten eşe kriptografik sanal para birimi
+Exec=zaprex-qt %u
+Terminal=false
+Type=Application
+Icon=zaprex128
+MimeType=x-scheme-handler/zaprex;
+Categories=Office;Finance;

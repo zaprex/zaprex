@@ -1,0 +1,26 @@
+# /etc/conf.d/zaprexd: config file for /etc/init.d/zaprexd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/zaprex/zaprex.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/zaprexd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/zaprexd.pid"
+
+# Where to write zaprexd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/zaprexd"
+
+# User and group to own zaprexd process
+#BITCOIND_USER="zaprex"
+#BITCOIND_GROUP="zaprex"
+
+# Path to zaprexd executable
+#BITCOIND_BIN="/usr/bin/zaprexd"
+
+# Nice value to run zaprexd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

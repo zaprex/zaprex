@@ -1,0 +1,36 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/zaprex_bg.qm</file>
+        <file alias="ca">locale/zaprex_ca.qm</file>
+        <file alias="cs">locale/zaprex_cs.qm</file>
+        <file alias="da">locale/zaprex_da.qm</file>
+        <file alias="de">locale/zaprex_de.qm</file>
+        <file alias="en">locale/zaprex_en.qm</file>
+        <file alias="en_US">locale/zaprex_en_US.qm</file>
+        <file alias="eo">locale/zaprex_eo.qm</file>
+        <file alias="es">locale/zaprex_es.qm</file>
+        <file alias="es_ES">locale/zaprex_es_ES.qm</file>
+        <file alias="fi">locale/zaprex_fi.qm</file>
+        <file alias="fr_FR">locale/zaprex_fr_FR.qm</file>
+        <file alias="hi_IN">locale/zaprex_hi_IN.qm</file>
+        <file alias="hr">locale/zaprex_hr.qm</file>
+        <file alias="hr_HR">locale/zaprex_hr_HR.qm</file>
+        <file alias="it">locale/zaprex_it.qm</file>
+        <file alias="ja">locale/zaprex_ja.qm</file>
+        <file alias="ko_KR">locale/zaprex_ko_KR.qm</file>
+        <file alias="lt_LT">locale/zaprex_lt_LT.qm</file>
+        <file alias="nl">locale/zaprex_nl.qm</file>
+        <file alias="pl">locale/zaprex_pl.qm</file>
+        <file alias="pt">locale/zaprex_pt.qm</file>
+        <file alias="pt_BR">locale/zaprex_pt_BR.qm</file>
+        <file alias="ro_RO">locale/zaprex_ro_RO.qm</file>
+        <file alias="ru">locale/zaprex_ru.qm</file>
+        <file alias="sk">locale/zaprex_sk.qm</file>
+        <file alias="sv">locale/zaprex_sv.qm</file>
+        <file alias="tr">locale/zaprex_tr.qm</file>
+        <file alias="uk">locale/zaprex_uk.qm</file>
+        <file alias="vi">locale/zaprex_vi.qm</file>
+        <file alias="zh_CN">locale/zaprex_zh_CN.qm</file>
+        <file alias="zh_TW">locale/zaprex_zh_TW.qm</file>
+    </qresource>
+</RCC>

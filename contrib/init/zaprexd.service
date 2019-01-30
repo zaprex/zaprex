@@ -1,0 +1,26 @@
+[Unit]
+Description=Zaprex's distributed currency daemon
+After=network.target
+
+[Service]
+User=zaprex
+Group=zaprex
+
+Type=forking
+PIDFile=/var/lib/zaprexd/zaprexd.pid
+
+ExecStart=/usr/bin/zaprexd -daemon -pid=/var/lib/zaprexd/zaprexd.pid \
+          -conf=/etc/zaprex/zaprex.conf -datadir=/var/lib/zaprexd
+
+ExecStop=-/usr/bin/zaprex-cli -conf=/etc/zaprex/zaprex.conf \
+         -datadir=/var/lib/zaprexd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
